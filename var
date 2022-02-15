@@ -1,0 +1,4 @@
+alias down="sudo shutdown -h now"
+
+alias l="ls -la"
+alias reload_file="source $bash_file"

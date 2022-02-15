@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+location=$(pwd)
+
+cd $HOME
+ln -s $location/.bash_profile .zshrc
+
+source .zshrc
