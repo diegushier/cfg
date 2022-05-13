@@ -1,6 +1,0 @@
-alias reload_file="source $bash_file"
-alias c="clear"
-
-#system alias 
-alias down="sudo shutdown -h now"
-alias rb="sudo reboot"
