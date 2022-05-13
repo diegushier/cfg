@@ -8,3 +8,8 @@ export scripts=$location/devs/scripts
 . $scripts/functions
 . $scripts/quick_access
 . $scripts/python_scripts
+
+# here we can add the quick alias for out system.
+alias dev="cd $HOME/devs"
+
+
