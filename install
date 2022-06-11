@@ -22,6 +22,11 @@ echo "export PATH=/opt/homebrew/bin/:$PATH" >> .zshrc
 ln -s $location/.bash_profile .zshrc
 source .zshrc
 
+read "psqlInstall?Do you want to install psql and start it service?"
+if [[ $psqlInstall == "y" || $psqlInstall == "Y" ]]; then
+    brew install postgresql
+fi
+
 # Plugins.....
 echo "\n"
 read "opt?Do you want to install all the plugins? // y|Y \n"
