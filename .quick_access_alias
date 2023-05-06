@@ -1,0 +1,10 @@
+alias l="ls -la"
+alias ls="ls -lA"
+alias ll="ls -l"
+
+# here we can add the quick alias for out system.
+alias dev="cd $HOME/devs"
+alias scripts="cd $scripts;c"
+
+alias py3="python3"
+alias server="ssh pi@home-server"

@@ -1,0 +1,7 @@
+alias c="clear"
+
+#system alias 
+alias down="sudo shutdown -h now"
+alias rb="sudo reboot"
+
+alias reloadTime="sntp time.euro.apple.com"

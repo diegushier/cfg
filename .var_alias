@@ -1,0 +1,6 @@
+# Source system files.....
+export SOURCE_FILE=$HOME/.zprofile
+
+# The ones I create....
+export OWN_FILE=/Users/lunargenta/devs/scripts
+export PATH=$PATH:/Users/lunargenta/devs/scripts/scripts/
