@@ -1,7 +1,0 @@
-alias l="ls -la"
-alias ls="ls -lA"
-alias ll="ls -l"
-
-alias scripts="cd $scripts;c"
-
-alias py3="python3"
